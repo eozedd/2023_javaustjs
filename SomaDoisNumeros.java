@@ -7,13 +7,19 @@ public class SomaDoisNumeros{
 
     Scanner leitor = new Scanner(System.in);
     double PrimeiroOperando;
+
     double SegundoOperando;
     double resultado;
 
     //Entrada
+        System.out.println("Digite o primeiro operando");
+        PrimeiroOperando = leitor.nextDouble();
+
+        system.out.println("Digite o segundo operando");
+        SegundoOperando = leitor.nextDouble();
 
     //Processamento
 
-    // Saída
+    //Saída
  }
 }
