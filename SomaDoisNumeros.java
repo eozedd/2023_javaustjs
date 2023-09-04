@@ -1,4 +1,4 @@
-importa java.util.Scanner;
+import java.util.Scanner;
 
 //pacote padrão: java.lang: importado automaticamente
 public class SomaDoisNumeros{
@@ -15,12 +15,13 @@ public class SomaDoisNumeros{
         System.out.println("Digite o primeiro operando");
         PrimeiroOperando = leitor.nextDouble();
 
-        system.out.println("Digite o segundo operando");
+        System.out.println("Digite o segundo operando");
         SegundoOperando = leitor.nextDouble();
 
     //Processamento
-        resultado = primeiroOperando + SegundoOperando;
+        resultado = PrimeiroOperando + SegundoOperando;
 
     //Saída
+    System.out.print(resultado);
  }
 }
