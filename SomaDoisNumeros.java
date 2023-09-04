@@ -19,6 +19,7 @@ public class SomaDoisNumeros{
         SegundoOperando = leitor.nextDouble();
 
     //Processamento
+        resultado = primeiroOperando + SegundoOperando;
 
     //Saída
  }
